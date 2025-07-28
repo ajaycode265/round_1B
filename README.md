@@ -49,6 +49,12 @@ This solution is a Python-based application that analyzes a collection of PDF do
     docker build --platform linux/amd64 -t document-intelligence .
     ```
 
+    **Note:** If you encounter any issues during the Docker build process, it may be due to package installation failures. As a workaround, you can manually install the required packages using `pip`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 3.  **Run the Docker Container:**
 
     The container is configured to process all collections within the `Challenge_1b` directory and generate the output in the same directory.

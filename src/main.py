@@ -61,7 +61,7 @@ def process_documents(input_path, output_path):
         json.dump(output_data, f, indent=4)
 
 if __name__ == "__main__":
-    base_path = "Challenge_1b"
+    base_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Challenge_1b")
     for collection_dir in os.listdir(base_path):
         collection_path = os.path.join(base_path, collection_dir)
         if os.path.isdir(collection_path):
