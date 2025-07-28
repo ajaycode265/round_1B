@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T21:54:07.254545"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Instructions:",
+            "importance_rank": 1,
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Instructions",
+            "importance_rank": 2,
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Pancakes",
+            "importance_rank": 3,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Ingredients:",
+            "importance_rank": 4,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Scrambled Eggs",
+            "importance_rank": 5,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "French Toast",
+            "importance_rank": 6,
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Smoothie Bowl",
+            "importance_rank": 7,
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Avocado Toast",
+            "importance_rank": 8,
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Breakfast Burrito",
+            "importance_rank": 9,
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Oatmeal",
+            "importance_rank": 10,
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Yogurt Parfait",
+            "importance_rank": 11,
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Breakfast Sandwich",
+            "importance_rank": 12,
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Chia Pudding",
+            "importance_rank": 13,
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Breakfast Quesadilla",
+            "importance_rank": 14,
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "Banana Bread",
+            "importance_rank": 15,
+            "page_number": 6
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 In a food processor, combine dates, mixed nuts, dried fruit, and honey.. \u2022. \u2022 Process until the mixture comes together.",
+            "page_number": 15
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": ": o Roast eggplants until soft, then peel and mash.. o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food processor.. o Slowly add olive oil while blending until smooth.",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 1 cup all-purpose flour \u2022 2 tablespoons sugar \u2022 1 teaspoon baking powder \u2022 1/2 teaspoon baking soda \u2022 1/4 teaspoon salt \u2022 1 cup buttermilk \u2022 1 large egg \u2022 2 tablespoons melted butter \u2022 1 teaspoon vanilla extract",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 4
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 5
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "",
+            "page_number": 6
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "metadata": {
+        "input_documents": [
+            "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "0e21835a42a6df2405496f62647058ff855743c1.pdf",
+            "2a85b52768ea5761b773be49b09d15f0b95415b0.pdf",
+            "1dcf57a5007b56254583423ba31107d22459bccf.pdf",
+            "2c143c1675c174d0317c3a1f67b68b2b60047467.pdf",
+            "0a29925ccc5e6299e132a73325956a3abef6dd26.pdf",
+            "1e8c2332a461a3a142840fa477fa907c66c35dac.pdf",
+            "2ED27NR7CISW7J4PHXXBZ6OFPVDFHMFB.pdf",
+            "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T21:54:15.946672"
+    },
+    "extracted_sections": [
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Communications Technology/Technician.",
+            "importance_rank": 1,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Radio and Television Broadcasting Technology/Technician.",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "2a85b52768ea5761b773be49b09d15f0b95415b0.pdf",
+            "section_title": "Predict the impact of conflict",
+            "importance_rank": 3,
+            "page_number": 10
+        },
+        {
+            "document": "2c143c1675c174d0317c3a1f67b68b2b60047467.pdf",
+            "section_title": "HUMANITARIAN IMPLICATIONS OF CYBER THREATS",
+            "importance_rank": 4,
+            "page_number": 5
+        },
+        {
+            "document": "2c143c1675c174d0317c3a1f67b68b2b60047467.pdf",
+            "section_title": "Invest in cybersecurity as a cross-organizational issue by:",
+            "importance_rank": 5,
+            "page_number": 7
+        },
+        {
+            "document": "1e8c2332a461a3a142840fa477fa907c66c35dac.pdf",
+            "section_title": "Drought Anticipatory Action Trigger in Burkina Faso",
+            "importance_rank": 6,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Realistic",
+            "importance_rank": 7,
+            "page_number": 1
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Communications and Media",
+            "importance_rank": 8,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Computers and Electronics",
+            "importance_rank": 9,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "English Language",
+            "importance_rank": 10,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Engineering and Technology",
+            "importance_rank": 11,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Mechanical",
+            "importance_rank": 12,
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Computer Support Specialists",
+            "importance_rank": 13,
+            "page_number": 3
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Network Systems and Data Communications Analysts",
+            "importance_rank": 14,
+            "page_number": 3
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "section_title": "Telecommunications Line Installers and Repairers",
+            "importance_rank": 15,
+            "page_number": 3
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- A program that generally prepares individuals to function as workers and managers within communications industries.. Includes instruction in business economics; basic management; principles of interpersonal and mediated communications; radio, television, and digital media production; and related aspects of technology and communications systems.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- A program that prepares individuals to apply technical knowledge and skills to the production of radio and television programs, and related operations, under the supervision of broadcast and studio managers, directors, editors, and producers.. Includes instruction in sound, lighting, and camera operation and maintenance; power and feed control; studio operations; production preparation; broadcast engineering; related computer applications; and specialized applications such as news, entertainment, live talk, sports, commercials, and taping.. Broadcast Technicians, page 3 of 3",
+            "page_number": 2
+        },
+        {
+            "document": "2a85b52768ea5761b773be49b09d15f0b95415b0.pdf",
+            "refined_text": "The humanitarian impacts of conflict, depending on its type, scale and many other factors, are extremely diffuse.. Meaningful anticipatory action on conflict would require not just the prediction of conflict events or risk, but also an ability to extend that prediction to the humanitarian impact of the conflict.. Understanding the relationship between conflict and humanitarian impact is therefore critical for understanding how to set the parameters for any model: defining conflict onset or escalation or the type of conflict to predict relies on how linked these elements are to humanitarian impact.",
+            "page_number": 10
+        },
+        {
+            "document": "2c143c1675c174d0317c3a1f67b68b2b60047467.pdf",
+            "refined_text": "The humanitarian implications of cyber threats are significant.. Virtual Risk, Tangible Harm: The Humanitarian Implications of Cyber Threats .. The sections below offer considerations to help organizations better understand and address the humanitarian implications of cyber threats across these domains.",
+            "page_number": 5
+        },
+        {
+            "document": "2c143c1675c174d0317c3a1f67b68b2b60047467.pdf",
+            "refined_text": "\u2022\t Integrating cybersecurity into broader organizational frameworks and strategies, including relevant legal, technical and operational safeguards.. Promoting an active stance from staff at all levels through awareness-raising programmes and displaying an engaged leadership style on cybersecurity matters overall.. 50 \u2022\t Allocating appropriate long-term and flexible funding for cybersecurity and data responsibility as an integral component of humanitarian programming.",
+            "page_number": 7
+        },
+        {
+            "document": "1e8c2332a461a3a142840fa477fa907c66c35dac.pdf",
+            "refined_text": "Background This report summarises the documentation and findings of the peer review of the trigger used in UN OCHA\u2019s Burkina Faso Anticipatory Action framework for drought.. To find out more, please see the Anticipatory Action Framework for Burkina Faso .. It summarises the concrete actions that the model will trigger or inform as part of the 2021 OCHA anticipatory action framework in Burkina Faso.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Realistic occupations frequently involve work activities that include practical, hands-on problems and solutions.. They often deal with plants, animals, and real-world materials like wood, tools, and machinery.. Many of the occupations require working outside, and do not involve a lot of paperwork or working closely with others.",
+            "page_number": 1
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Knowledge of media production, communication, and dissemination techniques and methods.. This includes alternative ways to inform and entertain via written, oral, and visual media.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Knowledge of the structure and content of the English language including the meaning and spelling of words, rules of composition, and grammar.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Knowledge of the practical application of engineering science and technology.. This includes applying principles, techniques, procedures, and equipment to the design and production of various goods and services.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Knowledge of machines and tools, including their designs, uses, repair, and maintenance.",
+            "page_number": 2
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Provide technical assistance to computer system users.. Answer questions or resolve computer problems for clients in person, via telephone or from remote location.. May provide assistance concerning the use of computer hardware and software, including printing, installation, word processing, electronic mail, and operating systems.",
+            "page_number": 3
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- Analyze, design, test, and evaluate network systems, such as local area networks (LAN), wide area networks (WAN), Internet, intranet, and other data communications systems.. Perform network modeling, analysis, and planning.. Research and recommend network and data communications hardware and software.",
+            "page_number": 3
+        },
+        {
+            "document": "2A2C2V4WI5YRDJHR26XUD4IAULIYGTMA.pdf",
+            "refined_text": "- String and repair telephone and television cable, including fiber optics and other equipment for transmitting messages or television programming.",
+            "page_number": 3
+        }
+    ]
+}

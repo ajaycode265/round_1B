@@ -1,0 +1,193 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-28T21:53:57.628306"
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "PDF/A Compliance",
+            "importance_rank": 1,
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "section_title": "Create PDFs from Word mail merges",
+            "importance_rank": 2,
+            "page_number": 27
+        },
+        {
+            "document": "Learn Acrobat - Edit_1.pdf",
+            "section_title": "Edit",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Hand",
+            "importance_rank": 4,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Interactive form",
+            "importance_rank": 5,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Prepare Forms",
+            "importance_rank": 6,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "Form Fill-in & Save)",
+            "importance_rank": 7,
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "section_title": "E-sign",
+            "importance_rank": 8,
+            "page_number": 15
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "Try AI Assistant",
+            "importance_rank": 9,
+            "page_number": 10
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "section_title": "License deployment",
+            "importance_rank": 10,
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Note:",
+            "importance_rank": 11,
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Download Individual Files",
+            "importance_rank": 12,
+            "page_number": 19
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Share",
+            "importance_rank": 13,
+            "page_number": 19
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Resources",
+            "importance_rank": 14,
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "section_title": "Acrobat Reader",
+            "importance_rank": 15,
+            "page_number": 21
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Creates the PDF so that it conforms to the selected ISO standard for long-term preservation of electronic documents.",
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "refined_text": "Mail merges from Word generate documents like form letters\u2014for one common example\u2014 that are personalized with information like the names and addresses of the recipients.. With Acrobat PDFMaker, you can save steps by using a Word mail merge document and corresponding data file to output mail merges directly to PDF.. You can even set up PDFMaker to attach those PDFs to email messages that are generated during the PDF-creation process.",
+            "page_number": 27
+        },
+        {
+            "document": "Learn Acrobat - Edit_1.pdf",
+            "refined_text": "in the global bar.. 2. Select the text that you want to edit.. 3. Edit the text by doing one of the following:",
+            "page_number": 4
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "tool changes to an I-beam  when you can type text into the form field.. Some text fields are dynamic, meaning that they automatically resize to accommodate the amount of data you enter and can span across pages.. 2. Select anywhere in the form to access options, such as radio buttons.",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "To create an interactive form, use the",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "tool.. See Create a form from an existing document .",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": ".. The tools are enabled for the current form only.. When you create a different form, redo this task to enable Acrobat Reader users to use the tools.",
+            "page_number": 12
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "refined_text": "from the global bar.. If you've already added your signature or initials, just select it from the Sign options, and then click at the place in the PDF where you want to add your signature.. If you are signing for the first time, you see the Signature or Initials panel.",
+            "page_number": 15
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "onboarding card in the home view.. AI Assistant opens the source file first and then shows you the references.. When you use the assistant with multiple files, a collection of those files is created and shown in the",
+            "page_number": 10
+        },
+        {
+            "document": "Learn Acrobat - Generative AI_2.pdf",
+            "refined_text": "You can manage the deployment of Acrobat AI Assistant through the Adobe Admin Console.. As an admin, you must add users to the Admin Console using one of the methods described in Adobe Admin Console users.. You can choose to either select the users to assign or create product profiles and assign users to the profiles.",
+            "page_number": 18
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Signers are not required to sign up or purchase any Adobe product to sign agreements.. They can sign agreements using a web browser, mobile device, or Acrobat / Acrobat Reader desktop application.. Send in bulk allows you to upload a form and use that as a template to create and send many (hundreds!) of unique agreements, each dedicated to one external signer.",
+            "page_number": 8
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "- Provides the option to download the individual PDF files if multiple files were used to create the web form.. \u2022",
+            "page_number": 19
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "- Shares the Bulk Send along with its status with the user email you provide.. Shared web forms can be viewed on the Manage page, but do not allow editing.. \u2022",
+            "page_number": 19
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": "Adobe Approved Trust List (AATL) :. The Adobe Approved Trust List is a program that allows millions of users worldwide to create digital signatures that are trusted whenever the signed document is opened in Acrobat or Reader software.. Check out the current members .",
+            "page_number": 21
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "refined_text": ".. When you apply a certificate-based signature, Acrobat uses a hashing algorithm to generate a message digest, which it encrypts using your private key.. Acrobat embeds the encrypted message digest in the PDF, certificate details, signature image, and a document version when signed.",
+            "page_number": 21
+        }
+    ]
+}
