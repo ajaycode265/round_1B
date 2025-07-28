@@ -10,9 +10,9 @@ This solution is a Python-based application that analyzes a collection of PDF do
 
 ### Features
 
--   **Persona-Based Analysis:** Ranks document sections based on their relevance to a user's persona and task.
--   **Extractive Summarization:** Provides concise summaries of the most important sections.
--   **Dockerized Solution:** The application is containerized for easy deployment and execution.
+- **Persona-Based Analysis:** Ranks document sections based on their relevance to a user's persona and task.
+- **Extractive Summarization:** Provides concise summaries of the most important sections.
+- **Dockerized Solution:** The application is containerized for optional deployment and execution.
 
 ### Project Structure
 
@@ -23,10 +23,10 @@ This solution is a Python-based application that analyzes a collection of PDF do
 ├── approach_explanation.md
 ├── requirements.txt
 ├── src/
-│   ├── main.py
-│   ├── pdf_parser.py
-│   ├── ranking.py
-│   └── summarizer.py
+│ ├── main.py
+│ ├── pdf_parser.py
+│ ├── ranking.py
+│ └── summarizer.py
 └── Challenge_1b/
     └── [Collection Name]/
         ├── PDFs/
@@ -35,38 +35,70 @@ This solution is a Python-based application that analyzes a collection of PDF do
         └── challenge1b_input.json
 ```
 
-### How to Run the Solution
+### ⚙️ How to Run the Solution
 
-1.  **Prepare Your Data:**
-
-    -   Inside the `Challenge_1b` directory, create a new folder for each collection of documents (e.g., `My_Collection`).
-    -   Inside each collection folder, create a `PDFs` directory and place all your PDF files there.
-    -   In the root of the collection folder, create a `challenge1b_input.json` file. This file must contain the persona, job-to-be-done, and a list of the PDF filenames to be processed. You can use the existing collections as a template.
-
-2.  **Build the Docker Image:**
-
-    ```bash
-    docker build --platform linux/amd64 -t document-intelligence .
-    ```
-
-    **Note:** If you encounter any issues during the Docker build process, it may be due to package installation failures. As a workaround, you can manually install the required packages using `pip`:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the Docker Container:**
-
-    The container is configured to process all collections within the `Challenge_1b` directory and generate the output in the same directory.
-
-    To run the solution, use the following command, which mounts the `Challenge_1b` directory into the container:
-
-    ```bash
-    docker run --rm -v "%cd%/Challenge_1b":/app/Challenge_1b document-intelligence
-    ```
-
-    The application will process the `challenge1b_input.json` file in each collection directory and generate a corresponding `challenge1b_output.json` file.
+You can run the solution **with or without Docker**.
 
 ---
 
-**Note**: For a detailed explanation of the methodology and architecture, please refer to the `approach_explanation.md` file.
+#### ✅ Recommended: Run Locally Without Docker (CPU + Offline Compatible)
+
+> **This solution is fully functional on CPU and does not require an internet connection once dependencies are installed.**
+
+1. **Install Dependencies (Manually):**
+
+   **Important:** Installing `spacy` inside Docker can be time-consuming. To avoid long build times, it is **highly recommended to install all packages separately on your system before execution.**
+
+   Run the following command in the root directory:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Download Required Spacy Model (only once):**
+
+   If you're online during setup, run:
+
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
+   💡 Skip this if the model is already downloaded or if running offline.
+
+3. **Prepare Input Data:**
+
+   - Inside the `Challenge_1b` directory, create a new folder for your collection (e.g., `My_Collection`).
+   - Add a `PDFs/` subdirectory with all your input PDFs.
+   - Add a `challenge1b_input.json` file at the root of that collection folder (use examples as reference).
+
+4. **Run the Application:**
+
+   From the root project directory:
+
+   ```bash
+   python src/main.py
+   ```
+   This will process all collections under the `Challenge_1b` directory and generate corresponding `challenge1b_output.json` files inside each collection folder.
+
+---
+
+#### 🐳 Optional: Run with Docker (if needed)
+
+1. **Build Docker Image:**
+
+   ⚠️ Note: Building the Docker image may take time due to Spacy installation.
+
+   ```bash
+   docker build --platform linux/amd64 -t document-intelligence .
+   ```
+
+2. **Run the Docker Container:**
+
+   ```bash
+   docker run --rm -v "%cd%/Challenge_1b":/app/Challenge_1b document-intelligence
+   ```
+   This will process all collections and generate the output files in the same directory.
+
+---
+
+#### 📄 For More Details
+Refer to `approach_explanation.md` for a full explanation of the methodology, design, and component structure.
