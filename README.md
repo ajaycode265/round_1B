@@ -66,7 +66,7 @@ You can run the solution **with or without Docker**.
 
 3. **Prepare Input Data:**
 
-   - Inside the `Challenge_1b` directory, create a new folder for your collection (e.g., `My_Collection`).
+   - Inside the `Challenge_1b` directory, create a new folder for your collection.
    - Add a `PDFs/` subdirectory with all your input PDFs.
    - Add a `challenge1b_input.json` file at the root of that collection folder (use examples as reference).
 
